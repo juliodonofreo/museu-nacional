@@ -39,6 +39,39 @@
             </nav><!-- Fim nav-->
 
         </header> <!-- Fim header-->
+
+        <div id="principal"> <!-- Início principal-->
+
+            <div id="conteudo"> <!-- Início conteúdo-->
+                <section id="capa">
+                    <img src="img/museu.png" alt="">
+                </section>
+            </div>  <!-- Fim conteúdo-->
+
+            <aside> <!-- Início aside-->
+                <section id="depoimento">
+                    <img src="img/depoimento.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" placeholder="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="number" id="qtd" value="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+            </aside> <!-- Fim aside-->
+        
+        </div> <!-- Fim principal-->
     </div><!-- Fim container-->
 </body>
 </html>
